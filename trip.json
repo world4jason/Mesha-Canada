@@ -1,0 +1,193 @@
+{
+  "trip": {
+    "title": "加拿大秋日自駕 × 黃刀鎮極光",
+    "subtitle": "Mesha + Kai",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-13",
+    "updatedAt": "2026-09-26T15:31:00+08:00",
+    "source": "加拿大11日遊行程",
+    "accent": "#d86c3f",
+    "notice": "此頁依行程表整理；班機、路況、票券與景點開放狀態請以當日官方資訊為準。"
+  },
+  "quickFacts": [
+    {"label":"主要城市","value":"Vancouver · Whistler · Yellowknife · Victoria"},
+    {"label":"交通","value":"自駕 + 國內線 + SkyTrain + BC Ferries"},
+    {"label":"重點","value":"Sea to Sky · Joffre Lakes · 極光 · 賞鯨"}
+  ],
+  "alerts": [
+    {
+      "id":"oct10-overlap",
+      "level":"warning",
+      "date":"2026-10-10",
+      "title":"10/10 行程時間重疊",
+      "body":"賞鯨行程 12:00–17:00，且需提早 1 小時報到；原表同時安排中午至傍晚的 Granville Island。建議把 Granville Island 改到上午或賞鯨結束後。"
+    },
+    {
+      "id":"yellowknife-open",
+      "level":"info",
+      "date":"2026-10-06",
+      "title":"黃刀鎮 Day 6–7 細節尚未填入",
+      "body":"住宿與極光團已在原表出現，但 10/6、10/7 日間活動未列細節；網站保留為彈性日，不自行補行程。"
+    }
+  ],
+  "days": [
+    {
+      "date":"2026-10-01","label":"10/1","weekday":"四","region":"台北 → 溫哥華","timeZone":"America/Vancouver","theme":"抵達與調整時差",
+      "route":"TPE → YVR → Richmond",
+      "activities":[
+        {"time":"23:35","title":"華航 CI 32 出發","meta":"TPE · 2 × 23kg · B777-300ER · 約 10h45m","kind":"flight","place":"Taiwan Taoyuan International Airport"},
+        {"time":"19:20","title":"抵達溫哥華 YVR","meta":"當地時間；入境後於機場辦理取車","kind":"arrival","place":"Vancouver International Airport"},
+        {"time":"TBD","title":"亞超補給","meta":"依抵達與取車進度，買食材、飲料與零食","kind":"flex","place":"Richmond BC Asian supermarket"},
+        {"time":"16:00+","title":"入住 Grand Park Hotel Vancouver Airport","meta":"8368 Alexandra Rd, Richmond · 1 晚","kind":"hotel","place":"Grand Park Hotel Vancouver Airport Ascend Hotel Collection"}
+      ]
+    },
+    {
+      "date":"2026-10-02","label":"10/2","weekday":"五","region":"Richmond → Whistler","timeZone":"America/Vancouver","theme":"Sea to Sky 北上",
+      "route":"Richmond → Park Royal → Britannia Beach → Whistler",
+      "activities":[
+        {"time":"07:00","title":"預約 10/4 Joffre Lakes Day Pass","meta":"原行程提醒：出發前兩天 07:00 開放","kind":"reminder","url":"https://rosaroundtheworld.com/joffre-lakes/#Joffre_Lakes_%E9%A0%90%E7%B4%84%EF%BC%9ADay-use_Trail_Passes"},
+        {"time":"08:30","title":"退房、採買後出發","meta":"開始 99 號海天公路 Sea to Sky Highway","kind":"drive","place":"Sea to Sky Highway"},
+        {"time":"TBD","title":"Park Royal 逛街","meta":"Aritzia：Super Puff；Sport Chek：Patagonia","kind":"shopping","place":"Park Royal West Vancouver"},
+        {"time":"TBD","title":"Britannia Mine Museum","meta":"地底火車體驗，原表預估約 1.5 小時；需購票","kind":"activity","place":"Britannia Mine Museum"},
+        {"time":"TBD","title":"Audain Art Museum","meta":"抵達 Whistler 後視時間參觀","kind":"activity","place":"Audain Art Museum"},
+        {"time":"晚間","title":"入住 Summit Lodge Boutique Hotel Whistler","meta":"連住 2 晚；晚餐可自煮","kind":"hotel","place":"Summit Lodge Boutique Hotel Whistler"}
+      ]
+    },
+    {
+      "date":"2026-10-03","label":"10/3","weekday":"六","region":"Whistler / Squamish","timeZone":"America/Vancouver","theme":"冰河湖、瀑布與酋長岩",
+      "route":"Whistler → Green Lake → Shannon Falls → Squamish → Whistler",
+      "activities":[
+        {"time":"07:00","title":"Green Lake Lookout","meta":"清晨看冰河湖與日出","kind":"view","place":"Green Lake Lookout Whistler"},
+        {"time":"TBD","title":"Shannon Falls","meta":"沿 Sea to Sky Highway 南下停留","kind":"nature","place":"Shannon Falls Provincial Park"},
+        {"time":"TBD","title":"Sea to Sky Gondola","meta":"山上停留原表抓約 1.5 小時","kind":"activity","place":"Sea to Sky Gondola"},
+        {"time":"TBD","title":"Squamish 小鎮補給","meta":"吃飯、加油","kind":"stop","place":"Squamish BC"},
+        {"time":"TBD","title":"Howe Sound Inn & Brewing","meta":"窯烤 Pizza + 精釀啤酒","kind":"food","place":"Howe Sound Inn & Brewing"},
+        {"time":"TBD","title":"Squamish Estuary Trail","meta":"木棧道拍 Stawamus Chief 酋長岩","kind":"walk","place":"Squamish Estuary Trail"},
+        {"time":"晚間","title":"回 Whistler","meta":"飯店自煮晚餐 · Whistler 夜 2","kind":"hotel","place":"Summit Lodge Boutique Hotel Whistler"}
+      ]
+    },
+    {
+      "date":"2026-10-04","label":"10/4","weekday":"日","region":"Whistler → Vancouver","timeZone":"America/Vancouver","theme":"Joffre Lakes 與回城",
+      "route":"Whistler → Joffre Lakes → Richmond → YVR → Downtown Vancouver",
+      "activities":[
+        {"time":"上午","title":"Joffre Lakes Park","meta":"健行散步；Day Pass 需事先確認完成","kind":"nature","place":"Joffre Lakes Provincial Park"},
+        {"time":"下午","title":"McArthurGlen Designer Outlet","meta":"回機場前視時間逛 Outlet","kind":"shopping","place":"McArthurGlen Designer Outlet Vancouver Airport"},
+        {"time":"TBD","title":"YVR 還車","meta":"完成租車歸還後轉乘 SkyTrain","kind":"drive","place":"Vancouver International Airport"},
+        {"time":"TBD","title":"SkyTrain 進市中心","meta":"前往 Downtown Vancouver","kind":"transit","place":"Vancouver City Centre Station"},
+        {"time":"晚間","title":"Gastown 漫步與晚餐","meta":"入住 The Parker Hotel and Rooftop · 1 晚","kind":"walk","place":"Gastown Vancouver"}
+      ]
+    },
+    {
+      "date":"2026-10-05","label":"10/5","weekday":"一","region":"Vancouver → Yellowknife","timeZone":"America/Yellowknife","theme":"飛往黃刀鎮",
+      "route":"Downtown → YVR → YEG → YZF",
+      "activities":[
+        {"time":"08:15","title":"WestJet WS 300：YVR → YEG","meta":"原表：B737","kind":"flight","place":"Vancouver International Airport"},
+        {"time":"10:50","title":"抵達 Edmonton YEG","meta":"轉機","kind":"arrival","place":"Edmonton International Airport"},
+        {"time":"12:30","title":"YEG → YZF","meta":"原表：Dash 8Q 渦輪螺旋槳","kind":"flight","place":"Edmonton International Airport"},
+        {"time":"14:40","title":"抵達 Yellowknife","meta":"入住後可在小鎮漫步、喝咖啡","kind":"arrival","place":"Yellowknife Airport"},
+        {"time":"晚間","title":"Chateau Nova Yellowknife","meta":"連住 3 晚；原行程含極光團，實際集合時間依業者通知","kind":"hotel","place":"Chateau Nova Yellowknife"}
+      ]
+    },
+    {
+      "date":"2026-10-06","label":"10/6","weekday":"二","region":"Yellowknife","timeZone":"America/Yellowknife","theme":"黃刀鎮彈性日",
+      "route":"Yellowknife",
+      "activities":[
+        {"time":"白天","title":"自由活動","meta":"原行程表未列日間細節，保留彈性","kind":"flex","place":"Yellowknife Northwest Territories"},
+        {"time":"夜間","title":"極光團","meta":"依已預約方案與業者集合通知為準","kind":"activity","place":"Yellowknife Northwest Territories"}
+      ]
+    },
+    {
+      "date":"2026-10-07","label":"10/7","weekday":"三","region":"Yellowknife","timeZone":"America/Yellowknife","theme":"黃刀鎮彈性日",
+      "route":"Yellowknife",
+      "activities":[
+        {"time":"白天","title":"自由活動","meta":"原行程表未列日間細節，保留彈性","kind":"flex","place":"Yellowknife Northwest Territories"},
+        {"time":"夜間","title":"極光團 / 備用觀測夜","meta":"依原預約與天候安排，不在網站自行假設場次","kind":"activity","place":"Yellowknife Northwest Territories"}
+      ]
+    },
+    {
+      "date":"2026-10-08","label":"10/8","weekday":"四","region":"Yellowknife → Vancouver","timeZone":"America/Vancouver","theme":"回到溫哥華",
+      "route":"Yellowknife → YVR → Broadway",
+      "activities":[
+        {"time":"白天","title":"黃刀鎮最後半日","meta":"退房、自由活動，預留前往機場時間","kind":"flex","place":"Yellowknife Northwest Territories"},
+        {"time":"17:50","title":"Air North 4N870：YZF → YVR","meta":"2 × 23kg · 原表機型標註未定","kind":"flight","place":"Yellowknife Airport"},
+        {"time":"19:35","title":"抵達 Vancouver","meta":"前往 Broadway 住宿","kind":"arrival","place":"Vancouver International Airport"},
+        {"time":"晚間","title":"Holiday Inn Vancouver-Centre (Broadway)","meta":"711 West Broadway · 連住 3 晚","kind":"hotel","place":"Holiday Inn Vancouver-Centre Broadway"}
+      ]
+    },
+    {
+      "date":"2026-10-09","label":"10/9","weekday":"五","region":"Victoria 一日遊","timeZone":"America/Vancouver","theme":"花園、內港與渡輪",
+      "route":"Vancouver → Tsawwassen → Swartz Bay → Victoria → Vancouver",
+      "activities":[
+        {"time":"清晨","title":"前往 Tsawwassen Ferry Terminal","meta":"大眾運輸 / Uber，依訂位與班次回推出發時間","kind":"transit","place":"Tsawwassen Ferry Terminal"},
+        {"time":"TBD","title":"BC Ferries → Swartz Bay","meta":"船程原表抓約 1.5 小時","kind":"ferry","place":"Swartz Bay Ferry Terminal"},
+        {"time":"TBD","title":"Butchart Gardens","meta":"秋季花園與楓紅","kind":"activity","place":"The Butchart Gardens"},
+        {"time":"TBD","title":"Victoria Inner Harbour","meta":"BC Parliament Buildings、Fairmont Empress 周邊","kind":"walk","place":"Victoria Inner Harbour"},
+        {"time":"傍晚","title":"返回 Vancouver","meta":"依 BC Ferries / 巴士預約時段返程","kind":"ferry","place":"Swartz Bay Ferry Terminal"}
+      ]
+    },
+    {
+      "date":"2026-10-10","label":"10/10","weekday":"六","region":"Vancouver","timeZone":"America/Vancouver","theme":"賞鯨與市區",
+      "route":"Broadway → Downtown / Granville → Robson Street",
+      "activities":[
+        {"time":"上午","title":"Maxine's Cafe & Bar","meta":"早午餐；須配合 11:00 賞鯨報到","kind":"food","place":"Maxine's Cafe & Bar Vancouver"},
+        {"time":"11:00","title":"賞鯨報到","meta":"原表：12:00–17:00 航程，提早一小時報到","kind":"reminder","place":"Granville Island Vancouver"},
+        {"time":"12:00","title":"賞鯨快艇","meta":"預計至 17:00","kind":"activity","place":"Granville Island Vancouver"},
+        {"time":"待調整","title":"Granville Island / Public Market","meta":"原表安排中午至傍晚，與賞鯨重疊；建議改上午或 17:00 後","kind":"conflict","place":"Granville Island Public Market"},
+        {"time":"晚間","title":"Robson Street 逛街","meta":"The North Face、Columbia / Sport Chek、Lululemon、Arc'teryx、Sephora","kind":"shopping","place":"Robson Street Vancouver"}
+      ]
+    },
+    {
+      "date":"2026-10-11","label":"10/11","weekday":"日","region":"Vancouver","timeZone":"America/Vancouver","theme":"最後一天補完清單",
+      "route":"Hotel → Stanley Park → Downtown → Hotel → YVR",
+      "activities":[
+        {"time":"上午","title":"退房、寄放行李","meta":"之後前往 Stanley Park","kind":"reminder","place":"Holiday Inn Vancouver-Centre Broadway"},
+        {"time":"上午","title":"Stanley Park 騎車","meta":"海堤步道約 1–2 小時；圖騰柱、Lion's Gate Bridge 視角","kind":"activity","place":"Stanley Park Vancouver"},
+        {"time":"TBD","title":"Vancouver Art Gallery","meta":"依實際開館與停留時間調整","kind":"activity","place":"Vancouver Art Gallery"},
+        {"time":"下午","title":"Fanny Bay Oyster Bar","meta":"Happy Hour；原表提醒可能需排隊","kind":"food","place":"Fanny Bay Oyster Bar Vancouver"},
+        {"time":"傍晚","title":"最後補貨、回飯店取行李","meta":"預留機場交通時間","kind":"shopping","place":"Vancouver BC"},
+        {"time":"23:30","title":"抵達 YVR","meta":"準備搭 10/12 02:00 CI31","kind":"airport","place":"Vancouver International Airport"}
+      ]
+    },
+    {
+      "date":"2026-10-12","label":"10/12","weekday":"一","region":"Vancouver → 台北","timeZone":"America/Vancouver","theme":"返台",
+      "route":"YVR → TPE",
+      "activities":[
+        {"time":"02:00","title":"華航 CI 31 起飛","meta":"YVR → TPE · 2 × 23kg · B777-300ER · 約 12h30m","kind":"flight","place":"Vancouver International Airport"}
+      ]
+    },
+    {
+      "date":"2026-10-13","label":"10/13","weekday":"二","region":"台北","timeZone":"Asia/Taipei","theme":"抵達台灣",
+      "route":"TPE",
+      "activities":[
+        {"time":"05:30","title":"抵達 TPE","meta":"旅程結束","kind":"arrival","place":"Taiwan Taoyuan International Airport"}
+      ]
+    }
+  ],
+  "checklist": [
+    {"id":"eta","group":"出發前","label":"加拿大 eTA","note":"原表已列入，但未把完成狀態公開到網站","defaultDone":false},
+    {"id":"idp","group":"出發前","label":"國際駕照","note":"原表標記完成","defaultDone":true},
+    {"id":"esim","group":"出發前","label":"eSIM / 漫遊網路","note":"確認加拿大與黃刀鎮涵蓋","defaultDone":false},
+    {"id":"rental","group":"交通","label":"YVR 租車","note":"原表標記完成","defaultDone":true},
+    {"id":"joffre","group":"票券","label":"Joffre Lakes Day Pass","note":"10/2 07:00 記得處理 10/4 入園","defaultDone":false},
+    {"id":"ferry","group":"票券","label":"Victoria / BC Ferries 行程","note":"確認去回班次與接駁集合點","defaultDone":true},
+    {"id":"whale","group":"票券","label":"10/10 賞鯨","note":"12:00–17:00；11:00 報到","defaultDone":true},
+    {"id":"aurora","group":"票券","label":"Yellowknife 極光團集合資訊","note":"抵達後再次確認日期與集合時間","defaultDone":false},
+    {"id":"bags","group":"返程","label":"10/11 退房後寄放行李","note":"23:30 前抵達 YVR","defaultDone":false}
+  ],
+  "bookings": [
+    {"type":"住宿","name":"Grand Park Hotel Vancouver Airport","dates":"10/1 · 1 晚","detail":"8368 Alexandra Rd, Richmond"},
+    {"type":"住宿","name":"Summit Lodge Boutique Hotel Whistler","dates":"10/2–10/4 · 2 晚","detail":"Whistler"},
+    {"type":"住宿","name":"The Parker Hotel and Rooftop","dates":"10/4 · 1 晚","detail":"1379 Howe St, Vancouver"},
+    {"type":"住宿 + 極光","name":"Chateau Nova Yellowknife","dates":"10/5–10/8 · 3 晚","detail":"極光團時間依業者通知"},
+    {"type":"住宿","name":"Holiday Inn Vancouver-Centre (Broadway)","dates":"10/8–10/11 · 3 晚","detail":"711 West Broadway, Vancouver"},
+    {"type":"航班","name":"CI32","dates":"10/1","detail":"TPE 23:35 → YVR 19:20"},
+    {"type":"航班","name":"WS300 + 轉機","dates":"10/5","detail":"YVR 08:15 → YEG 10:50 / 12:30 → YZF 14:40"},
+    {"type":"航班","name":"4N870","dates":"10/8","detail":"YZF 17:50 → YVR 19:35"},
+    {"type":"航班","name":"CI31","dates":"10/12–10/13","detail":"YVR 02:00 → TPE 05:30 (+1)"}
+  ],
+  "links": [
+    {"label":"BC Ferries","url":"https://www.bcferries.com/"},
+    {"label":"Joffre Lakes 參考","url":"https://rosaroundtheworld.com/joffre-lakes/#Joffre_Lakes_%E9%A0%90%E7%B4%84%EF%BC%9ADay-use_Trail_Passes"},
+    {"label":"Google 行程表","url":"https://docs.google.com/spreadsheets/d/1iuP2_NyJgyofg6jIEjoFIb4lg4MbSIEX_pkMkudUsWI/edit?usp=drivesdk"}
+  ]
+}
